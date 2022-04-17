@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.box {
+  background-color: lightblue;
+  height: 20vh;
+  width: 20vw;
+  outline: 1px solid black;
+}
+#score {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  background-color: green;
+  color: white;
+
+  border-radius: 50%;
+  height: 10vw;
+  width: 10vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
